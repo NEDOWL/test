@@ -4,7 +4,7 @@ from flask import request
 
 app = Flask(__name__)
 
-@app.route('/form', methods=['POST'])
+@app.route('/submit', methods=['POST'])
 def home():
     name = request.form.get('name')
     return f'Hello, {name}!'
