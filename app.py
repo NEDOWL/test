@@ -10,4 +10,4 @@ def home():
     return f'Hello, {name}!'
 
 if __name__ == "__main__":
-    app.run(host='194.87.95.213', port=8080), debug=True)
+    app.run(host='194.87.95.213', port=8080, debug=True)
